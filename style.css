@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+.logo {
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+
+span {
+    color: red;
+}
+
+.buttons {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.buttons button {
+    margin-right: 50px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 15px;
+    background: none;
+
+}
+
+.buttons button:nth-child(1) {
+    color: rgb(176, 179, 15);
+}
+
+.page1 {
+    height: 90vh;
+    width: 100vw;
+    background-image: url("1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.page1-img {
+    height: 120px;
+    width: 120px;
+    background-image: url("6.png");
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.icon i {
+    padding: 5px;
+    font-size: 22px;
+
+}
+
+.page1 button {
+    padding: 8px 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+}
+
+.page2 {
+    height: 70vh;
+    width: 100vw;
+
+
+}
+
+.contener-page2 {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+
+.heading h1 {
+    margin-left: 200px;
+}
+
+.page2-img {
+    height: 300px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    background-image: url("6.png");
+    border-radius: 100px;
+    background-size: cover;
+
+
+}
+
+.percentage-area {
+    height: 300px;
+    width: 60vw;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+        rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.about {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.percnt {
+    margin-left: 20px;
+    height: 33%;
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.DLV {
+    height: 10PX;
+    width: 500PX;
+    border-radius: 50px;
+    background-color: rgb(232, 236, 235);
+}
+
+.a1 {
+    height: 100%;
+    width: 85%;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.a2 {
+    height: 100%;
+    width: 95%;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.a3 {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(37, 8, 143);
+    border-radius: 75px;
+}
+
+.costmer {
+    height: 20vh;
+    width: 80vw;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.box {
+    height: 100%;
+    width: 220px;
+
+}
+
+.box h1 {
+    font-size: 20px;
+}
+
+.fire {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fire img {
+    height: 50px;
+    width: 50px;
+}
+
+.cup {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cup img {
+    height: 50px;
+    width: 50px;
+}
+
+.people {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.people img {
+    height: 50px;
+    width: 50px;
+}
+
+.medle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.medle img {
+    height: 50px;
+    width: 50px;
+}
+
+.box img {
+    height: 35px;
+    width: 35px;
+}
+
+.services {
+    height: 60vh;
+    width: 80vw;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.b-1 {
+    height: 310px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.dev {
+    background-color: rgb(108, 108, 229);
+    color: white;
+}
+
+.web {
+    background-color: rgb(249, 215, 76);
+    color: white;
+}
+
+.ca {
+    background-color: rgb(249, 123, 139);
+    color: white;
+}
+
+.page3 {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q {
+    height: 6vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+}
+
+.p3-text {
+    height: 300px;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+.form {
+    height: 300px;
+    width: 600px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer {
+    height: 12vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-top: 0.1px solid silver;
+}
+
+.line1 {
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.line1 input {
+    padding: 22px 50px;
+    margin-right: 25px;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 02px solid silver;
+}
+
+.ss input {
+    padding: 15px 34%;
+    border-radius: 50px;
+    border: 02px solid silver;
+
+}
+
+.textarea textarea {
+    padding: 5px 27%;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 02px solid silver;
+    box-shadow: 5px;
+
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.form button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background-color: red;
+}
